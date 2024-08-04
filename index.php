@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- A .container osztály a fő tartalom körül -->
     <div class="container">
         <h1>Szöveg és szám hangalapú bevitele és megjelenítése</h1>
         <button id="start-record-btn">Kezdés</button>

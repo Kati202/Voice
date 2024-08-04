@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() 
+{
     var startRecordBtn = document.getElementById('start-record-btn');
     var status = document.getElementById('status');
 

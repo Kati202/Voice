@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->close();
         $conn->close();
     } else {
-        echo json_encode(array("success" => false, "message" => "Nincs ID megadva"));
+        echo json_encode(array("success" => false, "message" => "Nincs Id megadva"));
     }
 } else {
     echo json_encode(array("success" => false, "message" => "Helytelen kérés"));
