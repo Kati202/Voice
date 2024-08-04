@@ -8,14 +8,14 @@
 <body>
     <!-- A .container osztály a fő tartalom körül -->
     <div class="container">
-        <h1>Számbevitel és megjelenítés</h1>
+        <h1>Szöveg és szám hangalapú bevitele és megjelenítése</h1>
         <button id="start-record-btn">Kezdés</button>
         <p id="status"></p>
         
-        <h2>Felvett számok</h2>
+        <h2>Felvett értékek:</h2>
         <table>
             <tr>
-                <th>ID</th>
+                <th>Id</th>
                 <th>Szöveg/Szám</th>
                 <th>Műveletek</th>
             </tr>
