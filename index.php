@@ -25,20 +25,18 @@
             $password = "mysql";
             $dbname = "voice_input";
 
-            // Kapcsolódás az adatbázishoz
             $conn = new mysqli($servername, $username, $password, $dbname);
 
-            // Kapcsolódás ellenőrzése
+           
             if ($conn->connect_error) {
                 die("Kapcsolódási hiba: " . $conn->connect_error);
             }
           
-            // Adatok lekérdezése
+            
             $sql = "SELECT id, number FROM number";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
-                // Adatok megjelenítése
                 while($row = $result->fetch_assoc()) {
                     echo "<tr>
                             <td>" . $row["id"]. "</td>
